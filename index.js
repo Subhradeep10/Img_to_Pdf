@@ -9,7 +9,7 @@ button.onclick = handleImagetoPdf
 function handleImagetoPdf(){
     htmltocancas(canvas,{
         onrendered: function(canvas){
-            var imgdata = 
+            var imgdata = canvas.toDataURL('image/png')
         }
     })
 }
