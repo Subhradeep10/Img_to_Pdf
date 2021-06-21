@@ -14,7 +14,10 @@ function handleImage(e){
     reader.onload = function(event){
         var image= new Image()
 
-
+        image.onload = function(){
+            canvas.width = image.width
+            canvas.height = image.height
+        }
         image.src = event.target.result
     }
 
