@@ -4,7 +4,11 @@ var canvas = document.getElementById("canvas")
 
 var button = document.getElementById("button")
 
+button.onclick = handleImagetoPdf
 
+function handleImagetoPdf(){
+    
+}
 
 var ctx = canvas.getContext('2d')
 
