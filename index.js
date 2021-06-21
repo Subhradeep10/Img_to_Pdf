@@ -13,7 +13,9 @@ function handleImage(e){
 
     reader.onload = function(event){
         var image= new Image()
-        
+
+
+        image.src = event.target.result
     }
 
     reader.readAsDataURL(e.target.files[0])
