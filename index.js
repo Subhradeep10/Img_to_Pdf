@@ -7,7 +7,7 @@ var button = document.getElementById("button")
 button.onclick = handleImagetoPdf
 
 function handleImagetoPdf(){
-    
+    htmltocancas(canvas,)
 }
 
 var ctx = canvas.getContext('2d')
