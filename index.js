@@ -19,6 +19,7 @@ function handleImage(e){
         image.onload = function(){
             canvas.width = image.width
             canvas.height = image.height
+            ctx.drawImage(image,0,0)
         }
         image.src = event.target.result
     }
