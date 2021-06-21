@@ -1,4 +1,6 @@
-.navbar navbar-expand-lg navbar-dark{
-    text-align: center;
-    justify-content: center;
+.navbar-brand{
+    font-size: xx-large;
+}
+body{
+    background-color: rgb(201, 247, 247);
 }
