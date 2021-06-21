@@ -10,6 +10,10 @@ function handleImagetoPdf(){
     htmltocancas(canvas,{
         onrendered: function(canvas){
             var imgdata = canvas.toDataURL('image/png')
+
+            var doc = new jsPDF('p','mm');
+            doc.addImage(imgdata,'PNG',10,10);
+            doc.save('kirmada_members.pdf');
         }
     })
 }
