@@ -7,5 +7,5 @@ var button = document.getElementById("button")
 Imagefile.addEventListener("change",handleImage, false)
 
 function handleImage(e){
-
+    console.log(e);
 }
