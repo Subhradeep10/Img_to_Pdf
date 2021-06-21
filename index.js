@@ -8,4 +8,6 @@ Imagefile.addEventListener("change",handleImage, false)
 
 function handleImage(e){
     console.log(e);
+
+    var reader = new FileReader()
 }
