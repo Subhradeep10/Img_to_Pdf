@@ -25,7 +25,7 @@ Imagefile.addEventListener("change",handleImage, false)
 function handleImage(e){
     console.log(e);
 
-    var reader = new FileReader()
+    var reader = new FileReader();
 
     reader.onload = function(event){
         var image= new Image()
@@ -35,7 +35,7 @@ function handleImage(e){
             canvas.height = image.height
             ctx.drawImage(image,0,0)
         }
-        image.src = event.target.result
+        image.src = event.target.result;
     }
 
     reader.readAsDataURL(e.target.files[0])
