@@ -1,0 +1,1 @@
+var Imagefile = document.getElementById("Imagefile");
