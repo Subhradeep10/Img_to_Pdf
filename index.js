@@ -4,6 +4,8 @@ var canvas = document.getElementById("canvas")
 
 var button = document.getElementById("button")
 
+
+
 var ctx = canvas.getContext('2d')
 
 Imagefile.addEventListener("change",handleImage, false)
