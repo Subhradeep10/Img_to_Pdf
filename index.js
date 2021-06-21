@@ -5,3 +5,7 @@ var canvas = document.getElementById("canvas")
 var button = document.getElementById("button")
 
 Imagefile.addEventListener("change",handleImage, false)
+
+function handleImage(e){
+
+}
